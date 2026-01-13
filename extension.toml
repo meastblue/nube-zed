@@ -1,0 +1,7 @@
+id = "nube"
+name = "Nube Theme"
+schema_version = 1
+version = "0.1.0"
+authors = ["meastblue"]
+description = "A cozy and vibrant theme for Zed"
+repository = "https://github.com/meastblue/nube-theme"

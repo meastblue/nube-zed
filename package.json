@@ -1,0 +1,20 @@
+{
+  "name": "nube-theme",
+  "version": "0.1.0",
+  "description": "A cozy and vibrant theme for Zed",
+  "author": "meastblue",
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "bun@1.1.0",
+  "scripts": {
+    "build": "bun run src/index.ts",
+    "dev": "bun --watch src/index.ts",
+    "clean": "rm -rf themes/*.json"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.1.0",
+    "@types/node": "^22.0.0",
+    "colord": "^2.9.3",
+    "typescript": "^5.7.0"
+  }
+}
