@@ -458,6 +458,85 @@ export const sorbetGrape: PoroPalette = {
 };
 
 // =============================================================================
+// NEBULA - Deep black with vibrant gem-like accents
+// =============================================================================
+
+const nebulaColors: SyntaxColors = {
+  blue: "#11B7D4",      // Functions
+  green: "#00a884",     // Strings
+  greenAlt: "#3585bb",  // Classes
+  orange: "#d4770c",    // Accessors
+  pink: "#d46ec0",      // Arguments/Decorators
+  purple: "#a85ff1",    // Types
+  red: "#E35535",       // Constants
+  salmon: "#c62f52",    // Variables
+  turquoise: "#38c7bd", // Function storage
+  yellow: "#c7910c",    // Keywords
+};
+
+const nebulaLevels: SemanticLevels = {
+  danger: nebulaColors.red,
+  info: nebulaColors.blue,
+  success: nebulaColors.green,
+  warning: nebulaColors.orange,
+};
+
+export const nebulaSapphire: PoroPalette = {
+  name: "Nebula Sapphire",
+  identifier: "nebula-sapphire",
+  dark: true,
+  colors: nebulaColors,
+  levels: nebulaLevels,
+  surfaces: generateSurfacesDark("#111418"),
+  texts: generateTextsDark("#111418", "#11B7D4"),
+  accent: "#11B7D4",
+};
+
+export const nebulaAmber: PoroPalette = {
+  name: "Nebula Amber",
+  identifier: "nebula-amber",
+  dark: true,
+  colors: nebulaColors,
+  levels: nebulaLevels,
+  surfaces: generateSurfacesDark("#111418"),
+  texts: generateTextsDark("#111418", "#c7910c"),
+  accent: "#c7910c",
+};
+
+export const nebulaCrimson: PoroPalette = {
+  name: "Nebula Crimson",
+  identifier: "nebula-crimson",
+  dark: true,
+  colors: nebulaColors,
+  levels: nebulaLevels,
+  surfaces: generateSurfacesDark("#111418"),
+  texts: generateTextsDark("#111418", "#c62f52"),
+  accent: "#c62f52",
+};
+
+export const nebulaJade: PoroPalette = {
+  name: "Nebula Jade",
+  identifier: "nebula-jade",
+  dark: true,
+  colors: nebulaColors,
+  levels: nebulaLevels,
+  surfaces: generateSurfacesDark("#111418"),
+  texts: generateTextsDark("#111418", "#38c7bd"),
+  accent: "#38c7bd",
+};
+
+export const nebulaViolet: PoroPalette = {
+  name: "Nebula Violet",
+  identifier: "nebula-violet",
+  dark: true,
+  colors: nebulaColors,
+  levels: nebulaLevels,
+  surfaces: generateSurfacesDark("#111418"),
+  texts: generateTextsDark("#111418", "#a85ff1"),
+  accent: "#a85ff1",
+};
+
+// =============================================================================
 // EXPORT ALL PALETTES
 // =============================================================================
 
@@ -482,6 +561,12 @@ export const allPalettes: PoroPalette[] = [
   // Crystal family
   crystalOnyx,
   crystalCosmos,
+  // Nebula family
+  nebulaSapphire,
+  nebulaAmber,
+  nebulaCrimson,
+  nebulaJade,
+  nebulaViolet,
   // Light themes
   daylight,
   sorbetCherry,
